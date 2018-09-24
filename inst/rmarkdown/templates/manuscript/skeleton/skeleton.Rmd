@@ -3,7 +3,7 @@ output:
   pdf_document:
     citation_package: natbib
     latex_engine: pdflatex
-    template: /Users/aidanmilliff/Dropbox (MIT)/LaTeX Directory/basictemplate/Manuscript.tex
+    template: Manuscript.tex
 title: "Title"
 subtitle: "Subtitle"
 thanks: "Acknowledgements"
