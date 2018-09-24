@@ -10,8 +10,12 @@ Requires `devtools` package for installation.
 
 ## Installation
 
-Run this in your R console to download the template as an `R` Package. Remember to change the `template:` filepath in the YAML header to wherever you store the `manuscript.tex` downloadable from this repository.
+Run this in your R console to download the template as an `R` Package.
 
 ```
 devtools::install_github("milliff/Latex-Manuscript-for-RMarkdown")
 ```
+
+## Example
+
+See the example folder in this repository for a short, lorem ipsum example of the output PDF and the .Rmd file that creates it.
