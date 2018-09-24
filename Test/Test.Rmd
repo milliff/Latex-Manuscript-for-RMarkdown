@@ -3,7 +3,7 @@ output:
   pdf_document:
     citation_package: natbib
     latex_engine: pdflatex
-    template: tex-ms.tex
+    template: Manuscript.tex
 title: "Title"
 subtitle: "Subtitle"
 thanks: "Acknowledgements"
@@ -15,13 +15,13 @@ author:
   affiliation: Affiliation Two; email@institution.edu
 - name: Third Author
   affiliation: Affilication Three; email@institution.edu
-abstract: Abstract
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 keywords: Key1, Key2, Key3
 toc: true
 geometry: margin= 1in
 #fontfamily: mathpazo
 fontsize: 12pt
-#spacing: onehalf
+spacing: double
 bibliography: 
 biblio-style: apsr
 citecolor:
