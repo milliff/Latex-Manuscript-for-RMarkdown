@@ -1,10 +1,44 @@
 ---
-title: "Manuscript"
-author: "Aidan Milliff"
-date: "9/24/2018"
-output: pdf_document
+output: 
+  pdf_document:
+    citation_package: natbib
+    latex_engine: pdflatex
+    template: /Users/aidanmilliff/Dropbox (MIT)/LaTeX Directory/basictemplate/Manuscript.tex
+title: "Title"
+subtitle: "Subtitle"
+thanks: "Acknowledgements"
+date: # Today, unless specified. In smaller font if specified to allow for version numbering
+author:
+- name: First Author
+  affiliation: Affiliation One; email@institution.edu
+- name: Second Author
+  affiliation: Affiliation Two; email@institution.edu
+- name: Third Author
+  affiliation: Affilication Three; email@institution.edu
+abstract: Abstract
+keywords: Key1, Key2, Key3
+toc: true
+geometry: margin= 1in
+#fontfamily: mathpazo
+fontsize: 12pt
+#spacing: onehalf
+bibliography: 
+biblio-style: apsr
+citecolor:
+urlcolor:
+linkcolor: blue
+anonymous: false # quickly sanitizes manuscript for blind review if 'true'
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Section
+
+## Subsection
+
+### Sub-SubSection
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
