@@ -31,7 +31,21 @@ anonymous: false # quickly sanitizes manuscript for blind review if 'true'
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, 
+                      warning = F, 
+                      error = F, 
+                      tidy = T, 
+                      tidy.opts=list(width.cutoff=50), 
+                      collapse = T,
+                      warning=FALSE,
+                      error=FALSE,
+                      message = FALSE, 
+                      comment = "",
+                      fig.cap = " ",
+                      cache = TRUE)
+# These options are tuned for manuscript/presentation. 
+# They basically run R in the background except for spitting out figures/tables
+# They also cache results so that you don't have to run your whole analysis every time you fix a typo
 ```
 # Section
 
